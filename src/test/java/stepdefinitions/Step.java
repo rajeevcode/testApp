@@ -30,12 +30,12 @@ public class Step {
 
     @Given("^Enter into username field$")
     public void enter_into_username_field() throws Throwable {
-        driver.findElementById("com.sourcey.materialloginexample:id/input_email").sendKeys("Veera");
+        driver.findElementById("com.sourcey.materialloginexample:id/input_email").sendKeys("rajeev1");
     }
 
     @Given("^Enter into password field$")
     public void enter_into_password_field() throws Throwable {
-        driver.findElementById("com.sourcey.materialloginexample:id/input_password").sendKeys("Veera");
+        driver.findElementById("com.sourcey.materialloginexample:id/input_password").sendKeys("rajeev12");
     }
 
     @When("^user tap on login button$")
